@@ -14,7 +14,7 @@ export default function TodoItems({
 }: todoItemsProps) {
   return (
     <div className=" flex items-center gap-1">
-      <label className="flex items-center border p-2 rounded gap-2 bg-white hover:bg-slate-50 grow">
+      <label className="flex items-center border p-2 gap-2 bg-white hover:bg-slate-50 grow rounded">
         <input
           type="checkbox"
           className="scale-125"
